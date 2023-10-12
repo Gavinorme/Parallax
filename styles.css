@@ -58,8 +58,17 @@ img {
   margin: auto;
 }
 
-.hidden {
+#hamburger {
     display: none;
+}
+
+#hamburger div {
+  width: 35px;
+  height: 5px;
+  background-color: grey;
+  margin: 6px 0;
+  display: flex;
+  justify-content: left;
 }
 
 /* Main Menu */
@@ -127,7 +136,7 @@ img {
   .flex1 {
     flex: 1;
   }
-  .hidden {
+  #hamburger {
     display: block;
   }
 }
@@ -137,7 +146,8 @@ img {
   .parallax {
     background-attachment: scroll;
   }
-  .hidden {
+
+  #hamburger {
     display: block;
   }
 }
