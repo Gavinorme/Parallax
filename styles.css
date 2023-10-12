@@ -7,6 +7,9 @@ html {
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+.hidden {
+  display: none;
+}
 
 .parallax {
   height: 100%;
@@ -136,6 +139,7 @@ img {
   .flex1 {
     flex: 1;
   }
+  
   #hamburger {
     display: block;
   }
@@ -147,7 +151,4 @@ img {
     background-attachment: scroll;
   }
 
-  #hamburger {
-    display: block;
-  }
 }
