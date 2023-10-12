@@ -1,6 +1,6 @@
 const toggleNav = () =>
 {
-    document.getElementById("nav-list").classList.toggle("hidden");
+    document.getElementById("hamburger").classList.toggle("hidden");
 }
 
 
